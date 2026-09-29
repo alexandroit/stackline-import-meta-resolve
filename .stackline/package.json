@@ -6,7 +6,7 @@
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
-  "description": "Resolve things like Node.js \u2014 ponyfill for `import.meta.resolve`",
+  "description": "Resolve things like Node.js — ponyfill for `import.meta.resolve`",
   "devDependencies": {
     "@types/node": "^24.0.0",
     "@types/semver": "^7.0.0",
@@ -31,6 +31,11 @@
     "url": "https://github.com/sponsors/wooorm"
   },
   "keywords": [
+    "stackline",
+    "npm-package",
+    "import-meta-resolve",
+    "nodejs",
+    "typescript",
     "esm",
     "module",
     "node",
@@ -79,8 +84,8 @@
   },
   "types": "index.d.ts",
   "type": "module",
-  "version": "1.0.0",
-  "homepage": "https://github.com/alexandroit/stackline-import-meta-resolve#readme",
+  "version": "1.0.1",
+  "homepage": "https://alexandro.net/docs/vanilla/import-meta-resolve/",
   "publishConfig": {
     "access": "public"
   }
