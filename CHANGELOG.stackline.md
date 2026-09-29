@@ -5,3 +5,5 @@
 - Adopt maintenance from `import-meta-resolve@4.2.0` with preserved source history and license.
 - Correct the duplicated object type in argument errors (issue 35) and parse data URL MIME headers in bounded linear work (issue 33).
 - Add tested, reproducible artifact publication with npm provenance and immutable release evidence.
+
+Single-wildcard diagnostic substitution is expressed explicitly, retaining the Node resolver behavior; it is not a sanitizer and does not replace multiple wildcards.

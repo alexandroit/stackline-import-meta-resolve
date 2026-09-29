@@ -117,5 +117,6 @@
     }
   ],
   "decision": "Correct the duplicated object type in argument errors (issue 35) and parse data URL MIME headers in bounded linear work (issue 33).",
-  "limits": "Issue titles and bodies were reviewed from the bounded primary-source snapshot; this does not claim exhaustive issue closure or vulnerability absence."
+  "limits": "Issue titles and selected relevant bodies were reviewed from the bounded primary-source snapshot; this does not claim exhaustive issue closure or vulnerability absence.",
+  "codeqlReview": "Single-wildcard diagnostic substitution is expressed explicitly, retaining the Node resolver behavior; it is not a sanitizer and does not replace multiple wildcards."
 }

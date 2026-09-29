@@ -18,3 +18,5 @@ Correct the duplicated object type in argument errors (issue 35) and parse data 
 - [34: Allow `#/` subpath imports — sync with Node v25.4.0 (nodejs/node#60864)](https://github.com/wooorm/import-meta-resolve/issues/34)
 
 The structured snapshot in `.stackline/issue-triage.json` also records recently closed reports. Issues for unrelated packages in shared monorepositories were qualified as outside this fork’s runtime scope. No maintainer was contacted.
+
+Single-wildcard diagnostic substitution is expressed explicitly, retaining the Node resolver behavior; it is not a sanitizer and does not replace multiple wildcards.

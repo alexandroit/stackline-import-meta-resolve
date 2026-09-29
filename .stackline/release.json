@@ -7,7 +7,8 @@
   "sourcePackageDirectory": ".",
   "overlays": {
     "lib/errors.js": "lib/errors.js",
-    "lib/get-format.js": "lib/get-format.js"
+    "lib/get-format.js": "lib/get-format.js",
+    "lib/resolve.js": "lib/resolve.js"
   },
   "tests": [
     "npm ci --ignore-scripts",

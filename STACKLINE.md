@@ -22,3 +22,5 @@ The upstream history and selected source commit remain in this native GitHub for
 The publish workflow downloads the exact successful CI artifact, requires CodeQL on the same commit, and verifies npm bytes, signatures, provenance, normal and aliased installation, and immutable release assets.
 
 See [UPSTREAM.md](UPSTREAM.md) for the issue triage and upstream origin, the original README for the API, and [CHANGELOG.stackline.md](CHANGELOG.stackline.md) for release changes. Report package defects through this repository’s issue tracker; use GitHub private vulnerability reporting for security concerns.
+
+Single-wildcard diagnostic substitution is expressed explicitly, retaining the Node resolver behavior; it is not a sanitizer and does not replace multiple wildcards.
