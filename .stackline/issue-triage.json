@@ -1,0 +1,121 @@
+{
+  "checkedAt": "2026-09-29T00:22:22.754964+00:00",
+  "upstreamRepository": "wooorm/import-meta-resolve",
+  "coverage": "Most recently updated 100 open and 30 closed issue/PR entries; PRs removed. This is triage evidence, not a claim of exhaustive review.",
+  "openIssues": [
+    {
+      "number": 35,
+      "title": "types.slice(pos, 1) in errors.js should be splice \u2014 'object' is never removed from the type list",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/35"
+    },
+    {
+      "number": 34,
+      "title": "Allow `#/` subpath imports \u2014 sync with Node v25.4.0 (nodejs/node#60864)",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/34"
+    }
+  ],
+  "recentClosedIssues": [
+    {
+      "number": 33,
+      "title": "non-linear back tracking in the regex used in getDataProtocolModuleFormat",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/33"
+    },
+    {
+      "number": 31,
+      "title": "Does not return valid file: URLs when handling absolute paths on windows",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/31"
+    },
+    {
+      "number": 30,
+      "title": "Trailing slashes in the parent are handled differently from `import.meta.resolve`",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/30"
+    },
+    {
+      "number": 24,
+      "title": "unexpected `ERR_PACKAGE_PATH_NOT_EXPORTED` thrown",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/24"
+    },
+    {
+      "number": 29,
+      "title": "Async API for moduleResolve()?",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/29"
+    },
+    {
+      "number": 26,
+      "title": "Make this work with yarn berry (aka yarn 2/3/4)",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/26"
+    },
+    {
+      "number": 27,
+      "title": "[DEP0180] DeprecationWarning: fs.Stats constructor is deprecated in Node v22.0.0",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/27"
+    },
+    {
+      "number": 23,
+      "title": "Incompatible with yarn P'n'P",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/23"
+    },
+    {
+      "number": 10,
+      "title": "Yarn PnP compatibility?",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/10"
+    },
+    {
+      "number": 22,
+      "title": "Resolve fails on MacOS and Windows, works on linux",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/22"
+    },
+    {
+      "number": 20,
+      "title": "First item is always resolved when export map target is Array (even if non-existent)",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/20"
+    },
+    {
+      "number": 19,
+      "title": "Support for resolving modules from folder paths",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/19"
+    },
+    {
+      "number": 18,
+      "title": "exporting the `packageResolve` function",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/18"
+    },
+    {
+      "number": 17,
+      "title": "Possible to use worker threads and execArgv?",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/17"
+    },
+    {
+      "number": 14,
+      "title": "`import.meta.resolve` is now defined to be _sync_",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/14"
+    },
+    {
+      "number": 12,
+      "title": "Circular dependency in lib/get-format.js",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/12"
+    },
+    {
+      "number": 5,
+      "title": "Support for TypeScript files",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/5"
+    },
+    {
+      "number": 11,
+      "title": "Want help on maintenance?",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/11"
+    },
+    {
+      "number": 7,
+      "title": "Use module.builtinModules instead of builtins dependency",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/7"
+    },
+    {
+      "number": 8,
+      "title": "how to resolve named exports?",
+      "url": "https://github.com/wooorm/import-meta-resolve/issues/8"
+    }
+  ],
+  "decision": "Correct the duplicated object type in argument errors (issue 35) and parse data URL MIME headers in bounded linear work (issue 33).",
+  "limits": "Issue titles and bodies were reviewed from the bounded primary-source snapshot; this does not claim exhaustive issue closure or vulnerability absence."
+}

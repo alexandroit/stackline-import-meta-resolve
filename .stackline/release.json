@@ -1,0 +1,19 @@
+{
+  "slug": "import-meta-resolve",
+  "upstream": "import-meta-resolve",
+  "upstreamVersion": "4.2.0",
+  "upstreamIntegrity": "sha512-Iqv2fzaTQN28s/FwZAoFq0ZSs/7hMAHJVX+w8PZl3cY19Pxk6jFFalxQoIfW2826i/fDLXv8IiEZRIT0lDuWcg==",
+  "upstreamCommit": "88a0e387cb4617c0f03217026adef2208018d41a",
+  "sourcePackageDirectory": ".",
+  "overlays": {
+    "lib/errors.js": "lib/errors.js",
+    "lib/get-format.js": "lib/get-format.js"
+  },
+  "tests": [
+    "npm ci --ignore-scripts",
+    "npm run generate",
+    "npm run build",
+    "npm run test-api",
+    "node --test test/stackline-regressions.js"
+  ]
+}

@@ -1,12 +1,14 @@
 {
   "author": "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)",
-  "bugs": "https://github.com/wooorm/import-meta-resolve/issues",
+  "bugs": {
+    "url": "https://github.com/alexandroit/stackline-import-meta-resolve/issues"
+  },
   "contributors": [
     "Titus Wormer <tituswormer@gmail.com> (https://wooorm.com)"
   ],
-  "description": "Resolve things like Node.js — ponyfill for `import.meta.resolve`",
+  "description": "Resolve things like Node.js \u2014 ponyfill for `import.meta.resolve`",
   "devDependencies": {
-    "@types/node": "24.0.0",
+    "@types/node": "^24.0.0",
     "@types/semver": "^7.0.0",
     "c8": "^10.0.0",
     "f-ck": "^2.0.0",
@@ -36,7 +38,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "import-meta-resolve",
+  "name": "@stackline/import-meta-resolve",
   "prettier": {
     "bracketSpacing": false,
     "semi": false,
@@ -54,7 +56,10 @@
       ]
     ]
   },
-  "repository": "wooorm/import-meta-resolve",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandroit/stackline-import-meta-resolve.git"
+  },
   "scripts": {
     "build": "tsc --build --clean && tsc --build && type-coverage",
     "format": "remark --frail --quiet --output -- . && prettier --write --log-level warn -- . && xo --fix",
@@ -74,5 +79,9 @@
   },
   "types": "index.d.ts",
   "type": "module",
-  "version": "4.2.0"
+  "version": "1.0.0",
+  "homepage": "https://github.com/alexandroit/stackline-import-meta-resolve#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }

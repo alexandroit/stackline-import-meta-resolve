@@ -1,0 +1,5 @@
+Independent maintenance fork of import-meta-resolve 4.2.0.
+Original copyright, author attribution, and license files are retained unchanged.
+Upstream: https://github.com/wooorm/import-meta-resolve
+Base commit: 88a0e387cb4617c0f03217026adef2208018d41a
+Stackline is not affiliated with or endorsed by upstream maintainers.
