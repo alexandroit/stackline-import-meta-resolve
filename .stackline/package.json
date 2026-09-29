@@ -84,7 +84,7 @@
   },
   "types": "index.d.ts",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://alexandro.net/docs/vanilla/import-meta-resolve/",
   "publishConfig": {
     "access": "public"

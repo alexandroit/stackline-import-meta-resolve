@@ -4,7 +4,7 @@
     {
       "name": "@stackline/import-meta-resolve",
       "path": "readme.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -20,8 +20,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/import-meta-resolve/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/import-meta-resolve/-/import-meta-resolve-1.0.0.tgz",
       "baselineIntegrity": "sha512-+Ghh1oyS+XcEuccMieMouKKT+rcBIgh8P6tY1MSJuzneBbXYuFgcx0O55KskZ428m60+jfmYF4WlpG/hKA5Xkw==",
-      "expectedSha512": "c4fe60ebca3eb80af28a3b880aab6d8da15f9a7d38d760d619824a4e77413d3404728bdb4049f28da52aa1c1309fcd8ce2ae51ca4579300bec5e1681cd1430cb",
-      "tag": "docs-stackline-import-meta-resolve-v1.0.1"
+      "expectedSha512": "218b71a999d396dbc7d49926c0d999a181431263f1cd44d44c5cc0b02d16624cc5a354f745d40f94297cef409378fa0513367d90c2bd0e3cb1916e00e9f6fe80",
+      "tag": "docs-stackline-import-meta-resolve-v1.0.2"
     }
   ]
 }
