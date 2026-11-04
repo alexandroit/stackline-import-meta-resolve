@@ -10,7 +10,7 @@
 
 **[Documentation](https://alexandro.net/docs/vanilla/import-meta-resolve/)** | **[npm](https://www.npmjs.com/package/@stackline/import-meta-resolve)** | **[Issues](https://github.com/alexandroit/stackline-import-meta-resolve/issues)** | **[Repository](https://github.com/alexandroit/stackline-import-meta-resolve)**
 
-**Current package version:** `1.0.2`
+**Current package version:** `1.0.4`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/import-meta-resolve@1.0.2` |
+| Package | `@stackline/import-meta-resolve@1.0.4` |
 | API target | `import-meta-resolve@4.2.0` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |
@@ -309,3 +309,7 @@ Original copyright, license notices and contributor acknowledgements remain part
 - [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
 
 Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
+
+## Upstream documentation
+
+The original upstream README is preserved in [README.upstream.md](README.upstream.md).

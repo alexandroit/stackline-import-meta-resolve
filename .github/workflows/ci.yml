@@ -31,6 +31,7 @@ jobs:
       - run: npm run test-coverage
       - run: node --test test/stackline-regressions.js
       - run: python3 scripts/stackline-pack.py
+      - run: python3 .github/scripts/check-release-readme.py artifact/*.tgz
       - run: node scripts/stackline-test-packed.mjs
       - run: node --test scripts/registry-requests.test.mjs
       - run: node scripts/audit-reviewed.cjs --self-test
