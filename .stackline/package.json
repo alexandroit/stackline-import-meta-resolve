@@ -8,7 +8,7 @@
   ],
   "description": "Resolve things like Node.js — ponyfill for `import.meta.resolve`",
   "devDependencies": {
-    "@types/node": "^24.0.0",
+    "@types/node": "24.0.0",
     "@types/semver": "^7.0.0",
     "c8": "^10.0.0",
     "f-ck": "^2.0.0",
@@ -72,7 +72,8 @@
     "prepack": "npm run generate && npm run build && npm run format",
     "test-api": "node --experimental-import-meta-resolve test/baseline.js && node --experimental-import-meta-resolve test/baseline-async.js && node test/index.js",
     "test-coverage": "c8 --branches 75 --functions 75 --lines 75 --statements 75 --reporter lcov -- npm run test-api",
-    "test": "npm run generate && npm run build && npm run format && npm run test-coverage"
+    "test": "npm run generate && npm run build && npm run format && npm run test-coverage",
+    "audit:security": "node scripts/audit-reviewed.cjs"
   },
   "sideEffects": false,
   "typeCoverage": {
@@ -84,9 +85,14 @@
   },
   "types": "index.d.ts",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://alexandro.net/docs/vanilla/import-meta-resolve/",
   "publishConfig": {
     "access": "public"
+  },
+  "overrides": {
+    "@eslint/plugin-kit@<0.3.4": "^0.3.5",
+    "glob@>=9 <14.0.2": "^14.0.2",
+    "minimatch@>=7 <11.0.1": "^11.0.1"
   }
 }
